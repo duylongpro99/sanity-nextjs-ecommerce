@@ -131,9 +131,8 @@ span.text-red {
 .banner-container {
   padding: 100px 40px;
   background-color: #dcdcdc;
-  border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: auto;
   line-height: 0.9;
   width: 100%;
 }
@@ -610,7 +609,7 @@ span.text-red {
 
 @media screen and (max-width: 800px) {
   .banner-container {
-    height: 560px;
+    height: auto;
   }
   .banner-image {
     width: 77%;
