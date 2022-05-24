@@ -36,6 +36,12 @@ export default {
       title: "Details",
       type: "string",
     },
+    {
+      name: "category",
+      title: "Category",
+      type: "reference",
+      to: [{ type: "category" }],
+    },
   ],
 };
 
