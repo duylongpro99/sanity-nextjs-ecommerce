@@ -10,6 +10,7 @@ import club from "./club";
 import country from "./country";
 import league from "./league";
 import category from "./category";
+import asset from "./asset";
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -24,6 +25,7 @@ export default createSchema({
     country,
     league,
     category,
+    asset,
   ]),
 });
 

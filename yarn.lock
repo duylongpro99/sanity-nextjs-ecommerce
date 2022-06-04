@@ -164,6 +164,21 @@
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.17.10.tgz"
   integrity sha512-n2Q6i+fnJqzOaq2VkdXxy2TCPCWQZHiCo0XqmrCvDWcZQKRyZzYi4Z0yxlBuN0w+r2ZHmre+Q087DSrw3pbJDQ==
 
+"@babel/plugin-proposal-do-expressions@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-do-expressions/-/plugin-proposal-do-expressions-7.16.7.tgz#80f55a0397a3899d562dd0f54ed926717b246817"
+  integrity sha512-IFa27vSFJgVV6p9HN8TBHPIZdd0v3YplR7dRwzM6fSf2R46HrDPOpaH5KwAqOIedMPAo149hC4M1swu42pValw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.7"
+    "@babel/plugin-syntax-do-expressions" "^7.16.7"
+
+"@babel/plugin-syntax-do-expressions@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-do-expressions/-/plugin-syntax-do-expressions-7.16.7.tgz#3e14c076687742d251a326611e7254e243d966bc"
+  integrity sha512-y1Z8konmSeZu1c2ClWvNIY9iGwKtzUzRFGt10A0d2WdOfajBj3RwOPeW8RTN+L7Ag8WQdifeAQxBDrqXO7TZhg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.7"
+
 "@babel/plugin-syntax-jsx@^7.16.7":
   version "7.16.7"
   resolved "https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.16.7.tgz"
