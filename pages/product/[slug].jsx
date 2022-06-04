@@ -16,7 +16,6 @@ const ProductDetail = ({ product, products }) => {
 
   const handleBuyNow = () => {
     onAdd(product, qty);
-
     setShowCart(true);
   };
 
